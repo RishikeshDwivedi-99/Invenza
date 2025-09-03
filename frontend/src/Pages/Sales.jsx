@@ -3,7 +3,7 @@ import Sidebar from '../Components/Sidebar'
 
 const Sales = () => {
   return (
-    <div>
+    <div className='text-black'>
       <div><Sidebar /></div>;
     </div>
   )

@@ -8,7 +8,7 @@ import { TbReportSearch } from "react-icons/tb";
 
 const Sidebar = () => {
   return (
-    <div className="w-[17%] fixed h-screen flex flex-col bg-white shadow-md">
+    <div className="w-[17%]  fixed h-screen flex flex-col bg-white shadow-md">
       <div className="p-3 border-b border-gray-200 flex items-center gap-1.5">
         <div className="flex flex-col justify-center">
           <h1 className="text-xl font-bold">Invenza</h1>

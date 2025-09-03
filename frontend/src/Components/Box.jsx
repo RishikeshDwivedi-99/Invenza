@@ -20,7 +20,7 @@ const Box = ({ icon, color = "black", text1 = "Total Products", text2 = "Revenue
       <div className="flex flex-col justify-center gap-1">
         <div className={clsx("text-2xl font-bold", colorClass)}>$3</div>
         <p className="text-xs text-gray-500">{text2}</p>
-      </div>
+      </div> 
     </div>
   );
 };

@@ -3,8 +3,11 @@ import Sidebar from '../Components/Sidebar'
 
 const Purchase = () => {
   return (
-    <div>
-      <div><Sidebar /></div>
+    <div className='flex flex-row w-full'>
+      <Sidebar />
+      <div className='w-[83%] z-100 bg-red-500 ml-auto'>
+        
+      </div>
     </div>
   )
 }
